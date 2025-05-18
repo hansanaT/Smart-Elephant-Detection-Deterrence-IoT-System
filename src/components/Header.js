@@ -5,6 +5,7 @@ export const Header = ({
                            systemActive,
                            onToggleSystem
                        }) => {
+
     return <header className="bg-white dark:bg-gray-800 shadow-sm">
         <div className="flex items-center justify-between px-4 md:px-6 py-4">
             <div className="flex items-center space-x-3">

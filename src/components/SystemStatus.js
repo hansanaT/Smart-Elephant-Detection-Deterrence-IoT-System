@@ -29,17 +29,17 @@ export const SystemStatus = ({
                 <SensorCard title="AI Module" value="Processing" status="active" icon={<ActivityIcon className="h-4 w-4" />} />
             </div>
             <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
-                <div className="flex justify-between items-center mb-2">
-                    <div className="flex items-center">
-                        <BatteryIcon className="h-4 w-4 text-green-500 mr-2" />
-                        <span className="text-sm text-gray-600 dark:text-gray-400">
-                Battery
-              </span>
-                    </div>
-                    <span className="text-sm font-medium text-gray-900 dark:text-white">
-              78%
-            </span>
-                </div>
+            {/*    <div className="flex justify-between items-center mb-2">*/}
+            {/*        <div className="flex items-center">*/}
+            {/*            <BatteryIcon className="h-4 w-4 text-green-500 mr-2" />*/}
+            {/*            <span className="text-sm text-gray-600 dark:text-gray-400">*/}
+            {/*    Battery*/}
+            {/*  </span>*/}
+            {/*        </div>*/}
+            {/*        <span className="text-sm font-medium text-gray-900 dark:text-white">*/}
+            {/*  78%*/}
+            {/*</span>*/}
+            {/*    </div>*/}
                 <div className="flex justify-between items-center mb-2">
                     <div className="flex items-center">
                         <WifiIcon className="h-4 w-4 text-green-500 mr-2" />
